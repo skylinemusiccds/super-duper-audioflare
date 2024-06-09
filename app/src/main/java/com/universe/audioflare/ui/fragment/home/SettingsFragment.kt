@@ -588,7 +588,7 @@ class SettingsFragment : Fragment() {
         binding.btGithub.setOnClickListener {
             val urlIntent = Intent(
                 Intent.ACTION_VIEW,
-                Uri.parse("https://github.com/universe-dev/")
+                Uri.parse("https://github.com/UniVerseCorp")
             )
             startActivity(urlIntent)
         }
