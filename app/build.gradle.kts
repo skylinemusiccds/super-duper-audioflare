@@ -5,6 +5,8 @@ plugins {
     id("com.google.dagger.hilt.android")
     id("com.google.devtools.ksp")
     id("com.mikepenz.aboutlibraries.plugin")
+    id("com.android.application")
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -303,6 +305,9 @@ dependencies {
     implementation("com.github.skydoves:landscapist-transformation")
     // InsetX
     implementation("com.moriatsushi.insetsx:insetsx:0.1.0-alpha10")
+    // Firebase
+    implementation(platform("com.google.firebase:firebase-bom:33.1.0"))
+    implementation("com.google.firebase:firebase-analytics")
 }
 hilt {
     enableAggregatingTask = true
