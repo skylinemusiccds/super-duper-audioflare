@@ -943,7 +943,7 @@ class Ytmusic {
         spotifyClient.get("https://open.spotify.com/get_access_token?reason=transport&productType=web_player") {
             userAgent(YouTubeClient.WEB.userAgent)
             contentType(ContentType.Application.Json)
-            header("Cookie", "sp_dc=AQCewwxFeLmi1MlkK7-hbjTb1aOd45VaJq4gkoLzv9X944s3S7c5rB-3R_Nxj8S51rAklgIM0Exog0UVKrmzvdWTOsK3u1NbS8GMHp9Ct9B0zz6WeewHXhiEbD7q5eFrEC4OWHuOIagQH570Ob6ZL8agbJd7HsWJ")
+            header("Cookie", "sp_dc=$sp_dc")
         }
 
     suspend fun getSpotifyLyrics(
