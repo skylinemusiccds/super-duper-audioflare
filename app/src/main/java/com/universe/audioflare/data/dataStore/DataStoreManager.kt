@@ -574,7 +574,7 @@ class DataStoreManager
             val WATCH_VIDEO_INSTEAD_OF_PLAYING_AUDIO =
                 stringPreferencesKey("watch_video_instead_of_playing_audio")
             val VIDEO_QUALITY = stringPreferencesKey("video_quality")
-            val SPDC = stringPreferencesKey("AQCewwxFeLmi1MlkK7-hbjTb1aOd45VaJq4gkoLzv9X944s3S7c5rB-3R_Nxj8S51rAklgIM0Exog0UVKrmzvdWTOsK3u1NbS8GMHp9Ct9B0zz6WeewHXhiEbD7q5eFrEC4OWHuOIagQH570Ob6ZL8agbJd7HsWJ")
+            val SPDC = stringPreferencesKey("sp_dc")
             val SPOTIFY_LYRICS = stringPreferencesKey("spotify_lyrics")
             val SPOTIFY_CANVAS = stringPreferencesKey("spotify_canvas")
             val SPOTIFY_PERSONAL_TOKEN = stringPreferencesKey("spotify_personal_token")
