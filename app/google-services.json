@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "555313406409",
+    "project_id": "audioflare-44123",
+    "storage_bucket": "audioflare-44123.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555313406409:android:51d79c93f1d36b1ee30818",
+        "android_client_info": {
+          "package_name": "com.universe.audioflare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDKf4GkBiw5IO72gopL8tz81BKdP5nrCI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
