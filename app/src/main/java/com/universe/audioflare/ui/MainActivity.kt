@@ -68,6 +68,23 @@ import pub.devrel.easypermissions.EasyPermissions
 import java.text.SimpleDateFormat
 import java.util.Locale
 import javax.inject.Inject
+import com.auth0.android.Auth0
+import com.auth0.android.provider.WebAuthProvider
+
+class MainActivity : AppCompatActivity() {
+
+  private lateinit var account: Auth0
+
+  override fun onCreate(savedInstanceState: Bundle?) {
+      super.onCreate(savedInstanceState)
+
+      // Set up the account object with the Auth0 application details
+      account = Auth0(
+          "4VlmvtMTp511nRR5OInoQgzMdJdwk8xD",
+          "audioflare.us.auth0.com"
+      )
+  }
+}
 
 @UnstableApi
 @AndroidEntryPoint
