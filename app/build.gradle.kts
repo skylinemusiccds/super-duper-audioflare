@@ -5,7 +5,6 @@ plugins {
     id("com.google.dagger.hilt.android")
     id("com.google.devtools.ksp")
     id("com.mikepenz.aboutlibraries.plugin")
-    id("com.android.application")
     id("com.google.gms.google-services")
 }
 
