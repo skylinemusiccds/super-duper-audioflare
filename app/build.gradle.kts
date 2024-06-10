@@ -7,7 +7,6 @@ plugins {
     id("com.mikepenz.aboutlibraries.plugin")
     id("com.google.gms.google-services")
 }
-apply plugin: 'com.android.application'
 android {
     defaultConfig {
         // other configurations
