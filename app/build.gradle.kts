@@ -56,8 +56,8 @@ android {
         }
         debug {
             isMinifyEnabled = false
-            applicationIdSuffix = ".dev"
-            versionNameSuffix = "-dev"
+            applicationIdSuffix = ""
+            versionNameSuffix = ""
         }
     }
     compileOptions {
