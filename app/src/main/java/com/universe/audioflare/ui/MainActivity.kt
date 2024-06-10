@@ -122,6 +122,23 @@ private fun logout() {
     })
 }
 
+private fun showUserProfile(accessToken: String) {
+  var client = AuthenticationAPIClient(account)
+
+  // With the access token, call `userInfo` and get the profile from Auth0.
+  client.userInfo(accessToken)
+    .start(object : Callback<UserProfile, AuthenticationException> {
+        override fun onFailure(exception: AuthenticationException) {
+            // Something went wrong!
+        }
+
+        override fun onSuccess(profile: UserProfile) {
+          // We have the user's profile!
+          val email = profile.email
+          val name = profile.name
+        }
+  })
+}
 
 
 @UnstableApi
