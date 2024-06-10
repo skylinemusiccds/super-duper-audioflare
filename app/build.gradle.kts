@@ -308,7 +308,7 @@ dependencies {
     implementation(platform("com.google.firebase:firebase-bom:33.1.0"))
     implementation("com.google.firebase:firebase-analytics")
     // Auth0
-    implementation('com.auth0.android:auth0:2.+')
+    // implementation('com.auth0.android:auth0:2.+')
 }
 hilt {
     enableAggregatingTask = true
