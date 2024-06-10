@@ -108,6 +108,21 @@ private fun loginWithBrowser() {
         })
 }
 
+private fun logout() {
+  WebAuthProvider.logout(account)
+    .withScheme("demo")
+    .start(this, object: Callback<Void?, AuthenticationException> {
+      override fun onSuccess(payload: Void?) {
+        // The user has been logged out!
+      }
+
+      override fun onFailure(error: AuthenticationException) {
+        // Something went wrong!
+      }
+    })
+}
+
+
 
 @UnstableApi
 @AndroidEntryPoint
