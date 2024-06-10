@@ -7,6 +7,13 @@ plugins {
     id("com.mikepenz.aboutlibraries.plugin")
     id("com.google.gms.google-services")
 }
+apply plugin: 'com.android.application'
+android {
+    defaultConfig {
+        // other configurations
+        manifestPlaceholders = [auth0Domain: "@string/com_auth0_domain", auth0Scheme: "demo"]
+    }
+}
 
 android {
     namespace = "com.universe.audioflare"
