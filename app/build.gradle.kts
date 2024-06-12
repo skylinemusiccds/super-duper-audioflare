@@ -54,11 +54,11 @@ android {
                 "proguard-rules.pro",
             )
         }
-        debug {
-            isMinifyEnabled = false
-            applicationIdSuffix = ".dev"
-            versionNameSuffix = "-dev"
-        }
+        //debug {
+        //    isMinifyEnabled = false
+       //     applicationIdSuffix = ".dev"
+       //     versionNameSuffix = "-dev"
+       // }
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
