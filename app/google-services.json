@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:555313406409:android:8daa38286ac936b4e30818",
         "android_client_info": {
-          "package_name": "com.universe.audioflare.dev"
+          "package_name": "com.universe.audioflare"
         }
       },
       "oauth_client": [
