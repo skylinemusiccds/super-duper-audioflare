@@ -5,13 +5,8 @@ plugins {
     id("com.google.dagger.hilt.android")
     id("com.google.devtools.ksp")
     id("com.mikepenz.aboutlibraries.plugin")
+    id("com.android.application")
     id("com.google.gms.google-services")
-}
-android {
-    defaultConfig {
-        // other configurations
-        manifestPlaceholders = [auth0Domain: "@string/com_auth0_domain", auth0Scheme: "demo"]
-    }
 }
 
 android {
@@ -313,8 +308,6 @@ dependencies {
     // Firebase
     implementation(platform("com.google.firebase:firebase-bom:33.1.0"))
     implementation("com.google.firebase:firebase-analytics")
-    // Auth0
-    implementation('com.auth0.android:auth0:2.+')
 }
 hilt {
     enableAggregatingTask = true
